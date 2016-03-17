@@ -1,0 +1,36 @@
+{
+  "name": "tarball-url-info",
+  "version": "1.0.0",
+  "description": "take a tarball and return an object with tarball path, version, etc ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/tarball-url-info.git"
+  },
+  "keywords": [
+    "npm",
+    "url",
+    "tar",
+    "tarball",
+    "dist"
+  ],
+  "author": "Ryan Day <soldair@npmjs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npm/tarball-url-info/issues"
+  },
+  "homepage": "https://github.com/npm/tarball-url-info#readme",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "semver": "^5.1.0"
+  }
+}
